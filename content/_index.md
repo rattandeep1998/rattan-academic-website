@@ -78,10 +78,23 @@ sections:
           date_start: '2022-08-01'
           date_end: '2023-08-01'
           description: |2-
-              Responsibilities include:
-
-              * <b>Global Mobile Tax Platform:</b> Designed solution to decompose logging, analytics and crash monitoring for TurboTax
-              * <b>Transactions Monolith to Microservice:</b> Contributed to migration of data & building of new APIs with 99% parity
+              <ul>
+                <li><b>Its Deductible: </b>
+                  <ul>
+                    <li><b>DB Upgrade: </b> Worked on migration of IDO DB from Oracle 12c to 19c and also built a new disaster recovery strategy using AWS Read Replica</li>
+                    <li><b>Backend Revamp: </b> Worked on revamp of Its Deductible Backend Application on the latest stack using SpringBoot and Intuit Kubernetes Service</li>
+                    <li><b>Smart Data Extraction: </b> Developed a solution using OCR, PII Guardrails and Gen AI(Prompt Engineering) to extract donation details from receipts in strctured format and automatically create donation for users.</li>
+                  </ul>
+                </li>
+                <li><b>TurboTax: </b>
+                  <ul>
+                    <li><b>Global Mobile Tax Platform:</b> Designed solution to decompose logging, analytics and crash monitoring for TurboTax</li>
+                    <li><b>TurboTax Mobile:</b> Integrated Firebase Crashlytics and Analytics in TTM application, resulting in early-detection and real time notification of crashes and user app behaviours.</li>
+                    <li><b>On-Device Classification:</b> Developed an on-device ML system that accurately classifies tax documents uploaded by users, minimizing the risk of erroneous submissions. The system is optimized through real-time user feedback, resulting in an enhanced user experience.</li>
+                  </ul>
+                </li>
+                <li><b>Transactions Monolith to Microservice:</b> Contributed to migration of data & building of new APIs with 99% parity</li>
+              </ul>
         - title: Software Engineer 2
           company: Intuit
           company_url: 'https://www.intuit.com/in/'
@@ -91,9 +104,24 @@ sections:
           date_end: '2022-07-01'
           description: |2-
               <ul>
-                <li><b>Mint Native to TurboTax Online:</b> Owned integration to help Mint users easily file taxes, generating $6.4M revenue</li>
-                <li><b>iOS Design System Library:</b> Developed design system library with 50+ components & integrated with Storybooks</li>
-                <li><b>AI Budget Recommendation System:</b> Built system to predict minters spending and provide insights to create or update budgets, experiment successful with 130 index</li>
+                <li><b>Mint - Product: </b>
+                  <ul>
+                    <li><b>AffordMint: </b> Developed a model that predicts user's purchase affordability for a category/merchant using transaction benchmarking and various affordability states.</li>
+                    <li><b>AI Budget Recommendation System:</b> Built system to predict minters spending and provide insights to create or update budgets, experiment successful with 130 index</li>
+                    <li><b>Mint Native to TurboTax Online:</b> Owned integration to help Mint users easily file taxes, generating $6.4M revenue</li>
+                    <li><b>Minty Suggestions:</b> Developed iOS widget to suggest top features to the users based on their usage pattern and "Minters Like Me".</li>
+                    <li><b>Sweepstakes:</b> Worked end-to-end across Product and Marketing teams to release Sweepstakes in-product campaigns.</li>
+                  </ul>
+                </li>
+                <li><b>Mint - Tech: </b>
+                  <ul>
+                    <li><b>Budgets Widgetization & Re-Arch in iOS: </b> Worked on Budgets iOS widetization, migration from xEvent to GraphQL, and eliminated the persistence store, resulting in a 33% reduction in average API calls and a 7% improvement in build time.</li>
+                    <li><b>iOS Design System Library:</b> Developed design system library with 50+ components & integrated with Storybooks</li>
+                    <li><b>Mint Life:</b> Started a centralised place and system for documentation of anything and everything required for developers in the Mint.</li>
+                    <li><b>Mint Brew:</b> Tool to automate creation of test accounts and generation of insights, helped in saving 200+ hrs of testing.</li>
+                    <li><b>App Eye:</b> Built and open-sourced iOS app size scanner to scan iOS app archives and generate treemap/heatmap for file structure.</li>
+                  </ul>
+                </li>
               </ul>
         - title: Software Engineer 1
           company: Intuit
@@ -104,8 +132,21 @@ sections:
           date_end: '2021-01-01'
           description: |2-
               <ul>
-                <li><b>Mint iOS Build Platform:</b> Setting automated pipeline to build & deploy the app, increasing release velocity by 2x</li>
-                <li><b>Operational Excellence:</b> Built pod binary caching mechanism to reduce iOS code compile time from 20 mins to 8 mins, reducing web view load time in native apps by 70% and contributing to Mint iOS app size reduction by 27% in 1 week</li>
+                <li><b>Mint - Product: </b>
+                  <ul>
+                    <li>Fixed font and color breaking changes on iOS 13 prior to public release.</li>
+                    <li>Implemented SwiftLint integration to enforce coding guidelines throughout the entire codebase and developed new custom rules to ensure adherence to coding standards.</li>
+                    <li><b>AutoMinting: </b> Worked on automating the post-release steps of Mint pipeline.</li>
+                    <li><b>Guided Budgets Flow: </b> Developed flow for FTU to add budgets in Mint iOS.</li>
+                  </ul>
+                </li>
+                <li><b>Mint - Tech: </b>
+                  <ul>
+                    <li><b>Mint iOS Build Platform:</b> Setting automated pipeline to build & deploy the app, increasing release velocity by 2x</li>
+                    <li><b>Operational Excellence:</b> Built pod binary caching mechanism to reduce iOS code compile time from 20 mins to 8 mins, reducing web view load time in native apps by 70% and contributing to Mint iOS app size reduction by 27% in 1 week</li>
+                    <li><b>Mint De-Junkify:</b> Developed and integrated linting system in Mint iOS that enforced coding guidelines/standards and help reduce code compilation time.</li>
+                  </ul>
+                </li>
               </ul>
         - title: Software Engineer Intern, SRE
           company: Intuit
