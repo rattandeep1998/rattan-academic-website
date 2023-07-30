@@ -88,9 +88,11 @@ sections:
                 </li>
                 <li><b>TurboTax: </b>
                   <ul>
+                    <li><b>Tax Optimization Service - Spousal Support:</b> Worked on adding support for multiple tax payers in optimization problem for TurboTax Canada.</li>
                     <li><b>Global Mobile Tax Platform:</b> Designed solution to decompose logging, analytics and crash monitoring for TurboTax</li>
                     <li><b>TurboTax Mobile:</b> Integrated Firebase Crashlytics and Analytics in TTM application, resulting in early-detection and real time notification of crashes and user app behaviours.</li>
                     <li><b>On-Device Classification:</b> Developed an on-device ML system that accurately classifies tax documents uploaded by users, minimizing the risk of erroneous submissions. The system is optimized through real-time user feedback, resulting in an enhanced user experience.</li>
+                    <li><b>TurboTax Orchestration Service:</b> Worked on localisation of content of topics in Tax Orchestration Service and built automated system which saved 50+ hrs during this process.</li>
                   </ul>
                 </li>
                 <li><b>Transactions Monolith to Microservice:</b> Contributed to migration of data & building of new APIs with 99% parity</li>
@@ -111,6 +113,7 @@ sections:
                     <li><b>Mint Native to TurboTax Online:</b> Owned integration to help Mint users easily file taxes, generating $6.4M revenue</li>
                     <li><b>Minty Suggestions:</b> Developed iOS widget to suggest top features to the users based on their usage pattern and "Minters Like Me".</li>
                     <li><b>Sweepstakes:</b> Worked end-to-end across Product and Marketing teams to release Sweepstakes in-product campaigns.</li>
+                    <li><b>Subscriptions v2:</b> Built a feature for users to manually add and delete their subscriptions, alongwith supporting non-monthly frequencies and getting on-screen feedback.</li>
                   </ul>
                 </li>
                 <li><b>Mint - Tech: </b>
