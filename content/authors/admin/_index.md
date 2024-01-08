@@ -29,13 +29,14 @@ interests:
   - Machine Learning
   - Artificial Intelligence
   - Computer Vision
+  - Natural Language Processing
 
 # Education to show in About widget
 education:
   courses:
     - course: MS in Computer Science
       institution: Columbia University
-      year: 2023
+      year: 2024
     - course: B.E. in Computer Science
       institution: Netaji Subhas Institute of Technology (NSIT), Delhi
       year: 2019

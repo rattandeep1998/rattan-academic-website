@@ -70,6 +70,25 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+
+      
+
+        - title: Graduate Teaching Assistant
+          company: Columbia University
+          company_url: 'https://www.cs.columbia.edu/'
+          company_logo: org-cu
+          location: New York, NY
+          date_start: '2023-09-01'
+          date_end: '2023-12-01'
+          description: |2-
+              <ul>
+                Course Assistant for <b>COMS 6156: Topics in Software Engineering - Cloud Computing</b> under Professor Donald Ferguson
+                <ul style="list-style-type: disc;">
+                  <li>Conducted weekly office hours and training sessions for students</li>
+                  <li>Graded assignments and projects, while also designing assignment rubrics for all tasks</li>
+                  <li>Guided and brainstormed with teams on their project ideas, breaking them into multiple sprints</li>
+                </ul>
+              </ul>
         - title: Senior Software Engineer
           company: Intuit
           company_url: 'https://www.intuit.com/in/'
@@ -160,8 +179,8 @@ sections:
           date_end: '2018-07-01'
           description: |2-
               <ul>
-                <li><b>Cloud Raider:</b> Developed and open-sourced Fault Injection Framework for Automated FMEA(Failure Modes and Effect Analysis) 
-                  reducing time to perform FMEA from days to hours and making services more resilient(Used by 100+ services)</li>
+                <b>Cloud Raider:</b> Developed and open-sourced Fault Injection Framework for Automated FMEA(Failure Modes and Effect Analysis) 
+                  reducing time to perform FMEA from days to hours and making services more resilient(Used by 100+ services)
               </ul>
         - title: Student Researcher
           company: Netaji Subhas Institute of Technology
@@ -173,30 +192,32 @@ sections:
           description: |2-
               <ul>
                 <b>Advisors:</b> Prof. M.P.S. Bhatia, Prof. Sushama Nagpal
-                <li>Worked on generation of human face images from textual descriptions using ArtistGAN</li>
-                <li>Devised algorithm to calculate trust and relationship index in social networks</li>
+                <ul style="list-style-type: disc;">
+                  <li>Worked on generation of human face images from textual descriptions using ArtistGAN</li>
+                  <li>Devised algorithm to calculate trust and relationship index in social networks</li>
+                </ul>
               </ul>
         - title: Technical Content Writer | DS & ML Course
           company: Coding Ninjas
           company_url: 'https://www.codingninjas.com/'
-          # company_logo: org-intuit
+          company_logo: org-cn
           location: New Delhi, India
           date_start: '2018-01-01'
           date_end: '2018-04-01'
           description: |2-
               <ul>
-                <li>Created notes for online courses with topics including decision trees, random forest classifier, etc. with practical projects</li>
+                Created notes for online courses with topics including decision trees, random forest classifier, etc. with practical projects
               </ul>
         - title: Teaching Assistant & Problem Setter | DS & Algorithms
           company: Coding Ninjas
           company_url: 'https://www.codingninjas.com/'
-          # company_logo: org-intuit
+          company_logo: org-cn
           location: New Delhi, India
           date_start: '2016-12-01'
           date_end: '2017-08-01'
           description: |2-
               <ul>
-                <li>TA to a class of 200+ students for both online and offline courses and curating new problems for online coding platform
+                TA to a class of 200+ students for both online and offline courses and curating new problems for online coding platform
               </ul>
     design:
       columns: '2'
