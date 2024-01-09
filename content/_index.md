@@ -217,7 +217,7 @@ sections:
                 TA to a class of 200+ students for both online and offline courses and curating new problems for online coding platform
               </ul>
     design:
-      columns: '2'
+      columns: '1'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -313,14 +313,44 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  # - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     text: |-
-  #       {{< gallery album="demo" >}}
-  #   design:
-  #     columns: '1'
+  - block: experience
+    id: volunteering
+    content:
+      title: Volunteering
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Computer Science - Department Representative
+          company: Engineering Graduate Student Council (EGSC), Columbia University
+          company_url: 'https://egsc.engineering.columbia.edu/'
+          company_logo: org-cu
+          location: New York, NY
+          date_start: '2023-09-01'
+          date_end: ''
+          description: |2-
+              <ul>
+                Represent CS graduate students
+                <ul style="list-style-type: disc;">
+                  <li>Work with faculty and staff to conduct activities for students</li>
+                </ul>
+              </ul>
+    design:
+      columns: '2'
+  - block: markdown
+    id: gallery
+    content:
+      title: Gallery
+      subtitle: ''
+      text: |-
+        {{< gallery album="NYC" >}}
+    design:
+      columns: '1'
   # - block: collection
   #   id: featured
   #   content:
@@ -369,8 +399,12 @@ sections:
       text: |-
         Thank you for visiting my website. I am currently seeking summer internships in 2024 for MLE and SDE positions. If my skills and profile align with your organization's needs, please feel free to contact me!
       email: rs4478@columbia.edu
-      phone: +91-8447151548
+      # phone: +91-8447151548
       contact_links:
+        - icon: linkedin
+          icon_pack: fab
+          name: rattandeep-singh
+          link: https://www.linkedin.com/in/rattandeep-singh/
         - icon: twitter
           icon_pack: fab
           name: rattandeep1998
