@@ -342,15 +342,15 @@ sections:
               </ul>
     design:
       columns: '2'
-  - block: markdown
-    id: gallery
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="NYC" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   id: gallery
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="NYC" >}}
+  #   design:
+  #     columns: '1'
   # - block: collection
   #   id: featured
   #   content:
