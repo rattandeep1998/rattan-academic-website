@@ -176,8 +176,7 @@ sections:
           date_end: '2018-07-01'
           description: |2-
               <ul>
-                <b>Cloud Raider:</b> Developed and open-sourced Fault Injection Framework for Automated FMEA(Failure Modes and Effect Analysis) 
-                  reducing time to perform FMEA from days to hours and making services more resilient(Used by 100+ services)
+                <b>Cloud Raider:</b> Spearheaded the development of a fault injection framework for Automated FMEA (Failure Modes and Effect Analysis), dramatically cutting down the FMEA process from days to hours. The implementation not only enhanced the resilience of over 100 services within the company but was also open-sourced for broader use. The project garnered recognition from senior leadership, and I was honored with an award in acknowledgment of my contributions.
               </ul>
         - title: Student Researcher
           company: Netaji Subhas Institute of Technology
