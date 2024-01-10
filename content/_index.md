@@ -335,9 +335,27 @@ sections:
           date_end: ''
           description: |2-
               <ul>
-                Represent CS graduate students
+                Recognized as the Computer Science Department Representative within the Engineering Graduate Student Council (EGSC) at Columbia University's School of Engineering and Applied Science (SEAS)
                 <ul style="list-style-type: disc;">
-                  <li>Work with faculty and staff to conduct activities for students</li>
+                  <li> Advocated for student interests by collaborating with the administration, while cultivating a sense of community through the organization of events and steadfast support for student club initiatives. </li>
+                  <li> Worked as a part of Socials team in EGSC and contributed to the organization and coordination of major events such as Rooftop Socials, Carleton Commons, Boat Cruise, and numerous other engaging initiatives. </li>
+                </ul>
+              </ul>
+        - title: University Life Campus Ambassador 
+          company: Columbia University
+          company_url: 'https://universitylife.columbia.edu/university-life-ambassadors'
+          company_logo: org-cu
+          location: New York, NY
+          date_start: '2023-09-01'
+          date_end: ''
+          description: |2-
+              <ul>
+                Selected as Campus Ambassador for University Life at Columbia University
+                <ul style="list-style-type: disc;">
+                  <li>Planned and organized Welcome Home Columbia events, including activities like Speed Friending and Silent Disco. Collaborated with a team of 10+ members to successfully execute these events, attracting a total footfall of over 10,000 students.</li>
+                  <li>Collaborated with the Religious Life team to volunteer for various events, such as MultiFaith Programs, Dinner Events, and more.</li>
+                  <li>Hosted events on Graduate Students Welcome Day, actively advocating for University Life.</li>
+                  <li>Awarded the Ambassador of the Month for outstanding dedication, actively participating in nearly every event.</li>
                 </ul>
               </ul>
     design:
