@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Rattandeep Singh
+title: Sai Manoj
 
 # Full name (for SEO)
-first_name: Rattandeep
-last_name: Singh
+first_name: Sai Manoj
+last_name: Jalam
 
 # Status emoji
 status:
