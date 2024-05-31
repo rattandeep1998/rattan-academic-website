@@ -70,7 +70,23 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Graduate Teaching Assistant
+        - title: Graduate Teaching Assistant (Spring 2024)
+          company: Columbia University
+          company_url: 'https://www.cs.columbia.edu/'
+          company_logo: org-cu
+          location: New York, NY
+          date_start: '2024-01-01'
+          date_end: '2024-05-31'
+          description: |2-
+              <ul>
+                Head Teaching Assistant for <b><a href="https://donald-f-ferguson.github.io/W4111-Intro-to-Databases-Spring-2024/">COMS 4111: Introduction to Databases</a></b> under Professor Donald Ferguson
+                <ul style="list-style-type: disc;">
+                  <li>Conducted weekly office hours and training sessions for students</li>
+                  <li>Led a team of 15 TAs, organizing weekly update meetings and delegating responsibilities</li>
+                  <li>Designed and created weekly assignments and exam papers to enhance course engagement and assessment</li>
+                </ul>
+              </ul>
+        - title: Graduate Teaching Assistant (Fall 2023)
           company: Columbia University
           company_url: 'https://www.cs.columbia.edu/'
           company_logo: org-cu
