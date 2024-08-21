@@ -432,7 +432,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Thank you for visiting my website. I am currently seeking summer internships in 2024 for MLE, Data Science and SDE positions. If my skills and profile align with your organization's needs, please feel free to contact me!
+        Thank you for visiting my website. I am currently seeking Fall 2024 internships for MLE, Data Science and SDE positions. If my skills and profile align with your organization's needs, please feel free to contact me!
       email: rs4478@columbia.edu
       # phone: +91-8447151548
       contact_links:
