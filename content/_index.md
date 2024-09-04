@@ -70,6 +70,53 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Assistant
+          company: Columbia University
+          company_url: 'https://www.cs.columbia.edu/'
+          company_logo: org-cu
+          location: New York, NY
+          date_start: '2023-12-01'
+          date_end: '2024-12-01'
+          description: |2-
+              <ul>
+                Research projects focussed on Language Modeling, Conversational AI, and Multimodal Systems under the guidance of <a href="https://www.cs.columbia.edu/~zhouyu/">Prof. Zhou Yu</a>.
+                <ul style="list-style-type: disc;">
+                  <li> Developed NLP models using GPT-4 and LLaMA to generate contextual clarifying questions, enhancing comprehension of complex social interactions. Created an abstractive model for QA and employed PPO/DPO techniques to fine-tune models </li>
+                  <li> Engineered the TLDR Reddit Social Dataset by scraping Reddit posts to build benchmark for question generation task </li>
+                  <li> Designed and implemented end-to-end pipeline on AWS for question generation, ranking, and benchmarking </li>
+                </ul>
+              </ul>
+        - title: Graduate Teaching Assistant (Fall 2024)
+          company: Columbia University
+          company_url: 'https://www.cs.columbia.edu/'
+          company_logo: org-cu
+          location: New York, NY
+          date_start: '2024-09-01'
+          date_end: '2024-12-01'
+          description: |2-
+              <ul>
+                Head Teaching Assistant for <b><a href="https://donald-f-ferguson.github.io/W4153-Cloud-Computing-Base/">COMS 4153: Cloud Computing</a></b> under Professor Donald Ferguson
+                <ul style="list-style-type: disc;">
+                  <li>Conducted weekly office hours and training sessions for students</li>
+                  <li>Graded assignments and projects, while also designing assignment rubrics for all tasks</li>
+                  <li>Guided and brainstormed with teams on their project ideas, breaking them into multiple sprints</li>
+                </ul>
+              </ul>
+        - title: Software Engineer Intern, Intuit Mailchimp
+          company: Intuit
+          company_url: 'https://www.intuit.com/in/'
+          company_logo: org-intuit
+          location: United States
+          date_start: '2024-05-01'
+          date_end: '2024-08-01'
+          description: |2-
+              <ul>
+                Worked in Mailchimp SMS team (Delivery squad) on following projects:
+                <ul style="list-style-type: disc;">
+                  <li><b>Monolith Proxy Service: </b> Developed a proxy service from scratch to integrate Mailchimp’s SMS stack with monolith application. This service efficiently routes HTTP requests based on tenant information and includes support for caching, error logging, and default fallbacks. Built using Go, Twirp/gRPC, and ProtoBuf, this solution saves developers approximately one hour daily.</li>
+                  <li><b>Delivery Re-Architecture: </b> Designed and implemented a revamped architecture with a new data layer, a robust mechanism for delivering messages to downstream aggregators, granular message transition states, and a smart retry system for handling failed or scheduled messages. This re-architecture reduces latency with a lightweight gateway component, increases fault tolerance through the improved retry mechanism, and optimizes database transactions with cleaner data models.</li>
+                </ul>
+              </ul>
         - title: Graduate Teaching Assistant (Spring 2024)
           company: Columbia University
           company_url: 'https://www.cs.columbia.edu/'
