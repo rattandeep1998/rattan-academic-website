@@ -28,8 +28,8 @@ organizations:
 interests:
   - Machine Learning
   - Artificial Intelligence
-  - Computer Vision
   - Natural Language Processing
+  - Computer Vision
 
 # Education to show in About widget
 education:
@@ -81,5 +81,5 @@ email: ''
 highlight_name: true
 ---
 
-I am currently pursuing Computer Science - Master of Science program at Columbia University and possess over 4 years of industry experience in software development. My passion lies in developing practical and innovative solutions to address real-world challenges. I am actively seeking Fall 2024 internship opportunities in MLE, Data Science, and SDE roles.
+I am currently pursuing Computer Science - Master of Science program at Columbia University and possess over 4 years of industry experience in software development. My passion lies in developing practical and innovative solutions to address real-world challenges. I am actively seeking full-time opportunities in Machine Learning Engineering (MLE), Data Science, and Software Development (SDE) roles.
 {style="text-align: justify;"}
