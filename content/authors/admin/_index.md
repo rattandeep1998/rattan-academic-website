@@ -36,7 +36,7 @@ education:
   courses:
     - course: MS in Computer Science
       institution: Columbia University
-      year: 2024
+      year: 2025
     - course: B.E. in Computer Science
       institution: Netaji Subhas Institute of Technology (NSIT), Delhi
       year: 2019
@@ -81,5 +81,5 @@ email: ''
 highlight_name: true
 ---
 
-I am currently pursuing Computer Science - Master of Science program at Columbia University and possess over 4 years of industry experience in software development. My passion lies in developing practical and innovative solutions to address real-world challenges. I am actively seeking full-time opportunities in Machine Learning Engineering (MLE), Data Science, and Software Development (SDE) roles.
+I am currently pursuing Computer Science - Master of Science program at Columbia University and possess over 4 years of industry experience in software development. My passion lies in developing practical and innovative solutions to address real-world challenges. I am actively seeking full-time opportunities in Machine Learning Engineering (MLE), Data Science, and Software Development (SDE) roles, starting May 2025.
 {style="text-align: justify;"}
